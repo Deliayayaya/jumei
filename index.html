@@ -1,0 +1,569 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>聚美优品</title>
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/jquery-ui-1.11.4.custom/jquery-ui.js'></script>
+<script type='text/javascript' src='js/index.js'></script>
+<link rel="stylesheet" type="text/css" href='js/jquery-ui-1.11.4.custom/jquery-ui.css'/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+
+<body>
+<div class='header'>
+	<div class='header_top'>
+		<ul class='header_left' >
+			<li class='header-left_f'>欢迎来到聚美！</li>
+            <li><a href='#' id='login_a'>请登录</a></li>
+            <li><a href='#' id='reg_a'>快速注册</a></li>
+            <div class='header_left_s'>
+                <span id='header_send'>送至<div class='header_send_img'></div></span>
+                <div class='header_send_to' style='display:none;'>
+                    <dl>
+                        <dd>
+                            <span>华北</span>
+                            <div>
+                                <a href='#'>北京</a>
+                                <a href='#'>天津</a>
+                                <a href='#'>河北</a>
+                                <a href='#'>山西</a>
+                                <a href='#'>内蒙古</a>
+                            </div>
+                        </dd>
+                        <dd>
+                            <span>华东</span>
+                            <div>
+                                <a href='#'>上海</a>
+                                <a href='#'>浙江</a>
+                                <a href='#'>江苏</a>
+                                <a href='#'>福建</a>
+                                <a href='#'>江西</a>
+                                <a href='#'>山东</a>
+                                <a href='#'>安徽</a>
+                            </div>
+                        </dd>
+                        <dd>
+                            <span>华南</span>
+                            <div>
+                                <a href='#'>广东</a>
+                                <a href='#'>海南</a>
+                                <a href='#'>广西</a>
+                            </div>
+                        </dd>  
+                        <dd>
+                            <span>华中</span>
+                            <div>
+                                <a href='#'>湖南</a>
+                                <a href='#'>湖北</a>
+                                <a href='#'>河南</a>
+                            </div>
+                        </dd> 
+                        <dd>
+                            <span>东北</span>
+                            <div>
+                                <a href='#'>吉林</a>
+                                <a href='#'>辽宁</a>
+                                <a href='#'>黑龙江</a>
+                            </div>
+                        </dd>                      
+                        <dd>
+                            <span>西南</span>
+                            <div>
+                                <a href='#'>重庆</a>
+                                <a href='#'>云南</a>
+                                <a href='#'>贵州</a>
+                                <a href='#'>四川</a>
+                                <a href='#'>西藏</a>
+                            </div>
+                        </dd>
+                        <dd>
+                            <span>西北</span>
+                            <div>
+                                <a href='#'>陕西</a>
+                                <a href='#'>甘肃</a>
+                                <a href='#'>宁夏</a>
+                                <a href='#'>青海</a>
+                                <a href='#'>新疆</a>
+                            </div>
+                        </dd> 
+                        <dd>
+                            <span>更多</span>
+                            <div>
+                                <a href='#'>澳门</a>
+                                <a href='#'>香港</a>
+                                <a href='#'>台湾</a>
+                                <a href='#'>钓鱼岛</a>
+                                <a href='#'>海外</a>
+                            </div>
+                        </dd>                                                 
+                     </dl>
+                </div>
+     		</div>
+        </ul>
+		<div class='header_right'>        	
+     		<ul>
+            	<li><a href='#'>正品保证</a></li>
+                <li><a href='#'>订单查询</a></li>
+                <li><span class='collect'><img src='img/little1.png'></img></span><a>收藏的品牌</a></li>
+                <li><a href='#'>我的聚美</a></li>
+                <li><span class='phone_jm'><img src='img/little2.png'></img></span><a class='phone_j'>手机聚美</a></li>
+                <li><span><img src='img/little3.png'></img></span><a>口碑中心</a></li>
+				<li><a href='#'>更多</a></li>
+     		</ul>
+   		</div>
+	</div>
+  	<div class='header_search'>
+    	<div class='logo'></div>
+   			<div class='search'>
+      			<div class='search_div'>
+      				<input id='search_input' type='text' ></input><input id='search_button' type='button' value='搜索'></input>
+      			</div>
+        	<div  class='search_list'>
+                <ul>            	
+                    <li><a href='#'>保湿 &nbsp; &nbsp;|</a></li>
+                    <li><a href='#'>面膜 &nbsp; &nbsp;|</a></li>
+                    <li><a href='#'>洗面奶 &nbsp;&nbsp;|</a></li>
+                    <li><a href='#'>补水 &nbsp; &nbsp;|</a></li>
+                    <li><a href='#'>香水 &nbsp; &nbsp;|</a></li>
+                    <li><a href='#'>眼霜 &nbsp; &nbsp;|</a></li>
+                    <li><a href='#'>口红 &nbsp; &nbsp;|</a></li>
+                    <li><a href='#'>护肤套装 |</a></li>
+                    <li><a href='#'>BB霜</a></li>
+                </ul>
+        	</div>
+		</div>
+        <div class='cart'><a id='cart_pay'>去购物车结算</a></div>
+	</div>
+	<div class='header_main'>
+    	<ul style='z-index:1'>
+            <li><a class='f_page'>首页</a></li>
+            <li><a class='f_page'>急速免税店</a></li>
+            <li><a class='f_page' id='f_special'><img src='img/muy1.gif'/></a></li>
+            <li><a class='f_page' id='f_shopp'>美妆商城</a></li>
+            <li><a class='f_page' id='f_luxury'>国际轻奢</a></li>
+            <li><a class='f_page'>服装运动</a></li>
+            <li><a class='f_page'>鞋帽配饰</a></li>
+     		<div class='header_main_img'></div>
+    	</ul>
+  	</div>
+  	<div class='header_down'>
+		<ul class='down_near'>
+            <li class='header_down_f'><a>美妆商城首页</a></li>
+            <li id=''><a>个人护理</a></li>
+            <li id=''><a>奢品美妆</a></li>
+            <li id=''><a>护肤</a></li>
+            <li id=''><a>彩妆</a></li>
+            <li id=''><a>香氛</a></li>
+		</ul>
+	</div>
+</div>
+
+
+<div class='center'>
+	<div class='main'>
+		<div class='main_left'>
+        	<h5 class='main_left_all'>全部分类</h5>
+        	<ul>
+				<li id='new_good1'>
+            		<h5>推荐品牌</h5>
+            		<a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a  href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a><a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+				</li>
+				<li id='new_good2'>
+            		<h5>护肤</h5>
+            		<a href='#'>洁面 &nbsp;</a>
+                    <a href='#'>化妆水 &nbsp;</a>
+                    <a href='#'>精华 &nbsp;</a>
+                    <a href='#'>乳液 &nbsp;</a>
+                    <a href='#'>面霜 &nbsp;</a>
+                    <a href='#'>眼霜 &nbsp;</a>
+                    <a href='#'>面膜 &nbsp;</a>
+                    <a href='#'>护肤套装 &nbsp;</a>
+           		</li>          
+            	<li id='new_good3'>
+            		<h5>彩妆</h5>
+            		<a href='#'>卸妆 &nbsp;</a>
+                    <a href='#'>防晒 &nbsp;</a>
+                    <a href='#'>BB霜 &nbsp;</a>
+                    <a href='#'>粉饼 &nbsp;</a>
+                    <a href='#'>眼影 &nbsp;</a>
+                    <a href='#'>睫毛膏 &nbsp;</a>
+                    <a href='#'>唇彩 &nbsp;</a>
+                    <a href='#'>腮红 &nbsp;</a>
+                    <a href='#'>彩妆套装 &nbsp;</a>
+				</li>
+            	<li id='new_good4'>
+            		<h5>香氛</h5>
+            		<a href='#'>女士香水 &nbsp;</a>
+                    <a href='#'>男士香水 &nbsp;</a>
+                    <a href='#'>中性香水 &nbsp;</a>
+                    <a href='#'>Q版香水 &nbsp;</a>
+                    <a href='#'>香水套装 &nbsp;</a>
+           		</li>
+            	<li id='new_good5'>
+            		<h5>个人护理</h5>
+            		<a href='#'>洗发 &nbsp;</a>
+                    <a href='#'>护发 &nbsp;</a>
+                    <a href='#'>沐浴 &nbsp;</a>
+                    <a href='#'>润肤乳 &nbsp;</a>
+                    <a href='#'>牙膏 &nbsp;</a>
+                    <a href='#'>发膜 &nbsp;</a>
+                    <a href='#'>脱毛 &nbsp;</a>
+                    <a href='#'>护理套装 &nbsp;</a>
+           		</li> 
+          		<li id='new_good6'>
+					<h5>男士专区</h5>
+            		<a href='#'>洁面 &nbsp;</a>
+                    <a href='#'>爽肤水 &nbsp;</a>
+                    <a  href='#'>乳液 &nbsp;</a>
+                    <a href='#'>面霜 &nbsp;</a>
+                    <a href='#'>精华 &nbsp;</a>
+                    <a href='#'>洗发 &nbsp;</a>
+                    <a href='#'>沐浴 &nbsp;</a>
+                    <a href='#'>男香 &nbsp;</a>
+           		</li>
+            	<li id='new_good7'>
+            		<h5>奢品美妆</h5>
+            		<a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>迪奥 &nbsp;</a>
+                    <a href='#'>海蓝之谜 &nbsp;</a>
+                    <a href='#'>希思黎 &nbsp;</a>
+           		</li>
+            	<li>
+            		<img src='img/goog1.png'/>
+           		</li>
+        	</ul>
+      	</div>
+        <div class='new_good1_show' style='display:none;'>
+            <ul>
+                <li>
+                    <h5>国际品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                   
+                </li>
+                <li>
+                    <h5>日韩品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+                <li>
+                    <h5>欧美品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+                <li>
+                    <h5>国货品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+                <li>
+                    <h5>洗护品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+                <li>
+                    <h5>独家品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>                 
+            </ul>
+        </div>
+        <div class='new_good2_show' style='display:none;'>
+            <ul>
+                <li>
+                    <h5>国际品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+            </ul>
+        </div>
+        <div class='new_good3_show' style='display:none;'>
+            <ul>
+                <li>
+                    <h5>国际品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+            </ul>
+        </div>
+        <div class='new_good4_show' style='display:none;'>
+            <ul>
+                <li>
+                    <h5>国际品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+            </ul>
+        </div>
+        <div class='new_good5_show' style='display:none;'>
+            <ul>
+                <li>
+                    <h5>国际品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+            </ul>
+        </div>
+        <div class='new_good6_show' style='display:none;'>
+            <ul>
+                <li>
+                    <h5>国际品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+            </ul>
+        </div>
+        <div class='new_good7_show' style='display:none;'>
+            <ul>
+                <li>
+                    <h5>国际品牌</h5>
+                    <a href='#'>欧莱雅 &nbsp;</a>
+                    <a href='#'>菲诗小铺 &nbsp;</a>
+                    <a href='#'>雅诗兰黛 &nbsp;</a>
+                    <a href='#'>兰蔻 &nbsp;</a>
+                    <a href='#'>韩束 &nbsp;</a>
+                    <a href='#'>倩碧 &nbsp;</a>
+                    <a href='#'>雅顿 &nbsp;</a>
+                    <a href='#'>佰草集 &nbsp;</a>
+                </li>
+            </ul>
+        </div>
+		<div class='main_right'>
+			<div class='main_center'>
+				<ul class='imgList'>
+					<li>
+                    	<img id='img_1' style='z-index:0;'src='img/72206_675_435_002-web.jpg'></img></li>
+					<li><img id='img_2' style='z-index:0;' src='img/72211_675_435_002-web.jpg'></img></li>
+					<li><img id='img_3' style='z-index:0' src='img/72214_675_435_003-web.jpg'></img></li>
+					<li><img id='img_4' style='z-index:0' src='img/72204_675_435_002-web.jpg'></img></li>
+				</ul>
+			</div>
+            <div class='main_center_right'>
+			<ul>
+                <li><a href='#'><img src='img/72223_212_145_002-web.jpg'/></a></li>
+                <li><a href='#'><img src='img/72228_212_145_002-web.jpg'/></a></li>
+                <li><a href='#'><img src='img/72229_212_145_002-web.jpg'/></a></li>
+			</ul>
+			</div>
+		</div>
+
+		<div class='main_center_down'>
+			<div class='down_center'>
+				<ul>
+                    <li class='down_1'><h5>推荐品牌</h5></li>
+                    <li class='down_2'><h5>独家品牌</h5></li>
+                    <li class='down_3'><h5>欧美品牌</h5></li>
+                    <li class='down_4'><h5>日韩品牌</h5></li>
+                    <li class='down_5'><h5>国货品牌</h5></li>
+                    <li class='down_6'><h5>洗护品牌</h5></li>
+				</ul>
+			</div>
+			<div class='d_recommend' style='display:block'>
+				<ul>
+                    <li><img src='img/28532_163_100_004-web.jpg'/></li>
+                    <li><img src='img/28533_163_100_004-web.jpg'/></li>
+                    <li><img src='img/34824_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/34819_163_100_002-web.jpg'/></li>
+                    <li><img src='img/34798_163_100_003-web.jpg'/></li>
+                    <li><img src='img/34810_163_100_002-web.jpg'/></li>
+                    <li><img src='img/43623_163_100_002-web.jpg'/></li>
+                    <li><img src='img/40035_163_100_002-web.jpg'/></li>
+                    <li><img src='img/54045_163_100_002-web.jpg'/></li>
+                    <li><img src='img/36836_163_100_002-web.jpg'/></li>
+				</ul>
+			</div>  
+      		<div class='d_only' style='display:none'>
+       			<ul>
+                    <li><img src='img/34875_163_100_002-web.jpg'/></li>
+                    <li><img src='img/36836_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/54045_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/28533_163_100_004-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/28532_163_100_004-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+				</ul>
+			</div>     
+            <div class='d_america' style='display:none'>  
+            	<ul>
+                    <li><img src='img/40035_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+            	</ul>
+            </div>
+			<div class='d_japan' style='display:none'>  
+        		<ul>
+                    <li><img src='img/28532_163_100_004-web.jpg'/></li>
+                    <li><img src='img/28533_163_100_004-web.jpg'/></li>
+                    <li><img src='img/34824_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/34819_163_100_002-web.jpg'/></li>
+                    <li><img src='img/34798_163_100_003-web.jpg'/></li>
+                    <li><img src='img/34810_163_100_002-web.jpg'/></li>
+                    <li><img src='img/43623_163_100_002-web.jpg'/></li>
+                    <li><img src='img/40035_163_100_002-web.jpg'/></li>
+                    <li><img src='img/54045_163_100_002-web.jpg'/></li>
+                    <li><img src='img/36836_163_100_002-web.jpg'/></li>
+      			</ul>
+     		</div>
+     		<div class='d_china' style='display:none'>  
+        		<ul>
+                    <li><img src='img/34875_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'></li>
+      			</ul>
+     		</div>
+     		<div class='d_wash' style='display:none'>  
+        		<ul>
+                    <li><img src='img/34875_163_100_002-web.jpg'/></li>
+                    <li><img src='img/36836_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/54045_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/28533_163_100_004-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+                    <li><img src='img/28532_163_100_004-web.jpg'/></li>
+                    <li><img src='img/55574_163_100_002-web.jpg'/></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div title="会员登录" id='login' style='display:none;'>
+	<p>
+		<label for='login' >账号：</label>
+        <input class='text' id='login_user' name='login_user' type='text'  />
+        <span class="spa">*</span>
+	</p>
+    <p>
+        <label for='text' >密码：</label>
+        <input class='text' id='login_pass' name='login_pass' type='password' />
+        <span class="spa">*</span>
+    <p>
+        <input type='checkbox' id='expires' name='expires' />
+        <label for='expires'>有效期为一个月</label>
+    </p>
+</div>
+
+
+<div class='activaty'>
+	<h3>精选活动 ACTIVITY</h3>
+    <ul class='activaty_1'>
+        <li><a><img src='img/act_1.png'></a></li>
+        <li><a><img src='img/act_1.png'></a></li>
+        <li><a><img src='img/act_1.png'></a></li>
+        <li><a><img src='img/act_1.png'></a></li>
+        <li><a><img src='img/act_1.png'></a></li>
+        <li><a><img src='img/act_1.png'></a></li>
+
+    </ul>
+</div>
+
+<div class='footer'>
+	<hr size='1' noshade='noshade'></hr>
+
+</div>
+</body>
+</html>
